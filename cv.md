@@ -1,3 +1,5 @@
+# rsschool-cv
+![Photo](img/photo.JPG)
 # __Alexandr Bondarenko__
 
 # __My Contact Info__:
