@@ -63,4 +63,4 @@ ___
 #### I plan to improve my English to B1 in the course of half a year.
 ___
 
-[!([RSS](img/rs_school.svg))](https://rs.school)
+[![RSS](img/rs_school.svg)](https://rs.school)
