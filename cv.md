@@ -10,8 +10,8 @@
 
 # __About Me__
 
-#### Hi. I am 33 years old. I got interested in IT a long time ago. I majored in software engineering at the university about 10 years ago, but I left it without getting a degree. Then I took a course on web design (UX/UI), tried myself in creative professions. Superficially interested in C# and Java programming languages, as well as game development on Unity. I am currently learning JavaScript from tutorials and YouTube videos. In my free time I'm occupied with my personal growth and psychology. My hobby is music.
-#### My long-term goal is to become a professional full-stack developer, in order to create websites, games and applications of any complexity quickly and with high quality. My main strengths are assiduity and pedantry, the ability to learn quickly and acquire new skills. I like to spend a lot of time developing algorithms. I love programming and solving tasks.
+#### *Hi. I am 33 years old. I got interested in IT a long time ago. I majored in software engineering at the university about 10 years ago, but I left it without getting a degree. Then I took a course on web design (UX/UI), tried myself in creative professions. Superficially interested in C# and Java programming languages, as well as game development on Unity. I am currently learning JavaScript from tutorials and YouTube videos. In my free time I'm occupied with my personal growth and psychology. My hobby is music.*
+#### *My long-term goal is to become a professional full-stack developer, in order to create websites, games and applications of any complexity quickly and with high quality. My main strengths are assiduity and pedantry, the ability to learn quickly and acquire new skills. I like to spend a lot of time developing algorithms. I love programming and solving tasks.*
 
 
 # __Hard Skills__
