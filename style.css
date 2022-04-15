@@ -26,3 +26,132 @@ body {
     /* min-width: 1280px; */
 }
 
+/* Типографика */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,200&family=Roboto:wght@100;300;400&display=swap');
+
+.wrapper-body {
+    /* display: flex; */
+    max-width: 1130px;
+    min-height: 1600px;
+    margin: 0 auto;
+    border: 3px solid #C6A63C;
+    box-shadow: 0px 0px 15px 3px #978b80;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+}
+
+.wrapper_header {
+    display: flex;
+    width: 1124px;
+    height: 365px;
+    margin: 0 auto;
+
+    border-radius: 16px 16px 0 0;
+    background-color: #E1B83A;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 450px;
+    height: 365px;
+
+    /* background-color: coral; */
+}
+
+.photo-size {
+    width: 300px;
+    height: 317px;
+}
+
+.name-special {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 680px;
+    height: 365px;
+
+    /* background-color: chocolate; */
+}
+
+.wrapper-special {
+    display: block;
+    margin-top: 25px;
+    width: 500px;
+    height: 200px;
+}
+
+.name {
+    display: inline-block;
+    margin-bottom: 45px;
+    font-family: "Poppins", sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    color: #2D323E;
+    transform: scale(1, 1.5);
+
+    /* background-color: antiquewhite; */
+
+}
+
+.special {
+    display: inline-block;
+    color: #2D323E;
+    padding: 15px 15px 15px 15px;
+    letter-spacing: 0.1em;
+    background-color: #FED863;
+}
+
+.wrapper_exp {
+    display: flex;
+    /* margin-left: 5px; */
+    width: 1124px;
+    height: 1236px;
+
+    border-radius: 0 0 20px 20px;
+    background-color: aquamarine;
+}
+
+.wrapper_profile {
+    display: block;
+
+    width: 447px;
+    height: 1236px;
+
+    border-radius: 0 0 0 17px;
+    background-color: #232323;
+}
+
+
+
+
+
+.wrapper_experience {
+    display: block;
+
+    width: 677px;
+    height: 1236px;
+
+    border-radius: 0 0 20px 0;
+    background-color: #F8F8F8;
+}
+
+.contacts {
+    width: 677px;
+    height: 165px;
+
+    background-color: cornflowerblue;
+}
+
+/* .icons {
+    display: block;
+    width: 50px;
+    height: 50px;
+
+    background-color: #978b80;
+} */
