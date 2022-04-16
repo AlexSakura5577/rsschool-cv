@@ -125,7 +125,11 @@ body {
 }
 
 .wrapper_profile {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
 
     max-width: 447px;
     height: 1236px;
@@ -138,7 +142,8 @@ body {
 .wrapper_experience {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    justify-content: space-around;
+    align-items: center;
 
     max-width: 677px;
     height: 1236px;
@@ -151,11 +156,9 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* align-items: center; */
-    /* justify-content: space-around; */
 
     max-width: 677px;
-    height: 165px;
+    height: 120px;
 
     /* background-color: cornflowerblue; */
 }
@@ -184,24 +187,27 @@ body {
 i {
     font-size: 22px;
 }
+
 .maps {
     color: #34A853;
 }
+
 .telegram {
     color: #249CD7;
 }
+
 .discord {
     color: #5662F6;
 }
+
 .gmail {
     color: #EE5013;
 }
+
 .youtube {
     color: #FC0000;
 }
-.github {
-    color: #390173;
-}
+
 
 .contacts {
     display: flex;
@@ -211,7 +217,7 @@ i {
     align-items: center;
 
     width: 338px;
-    height: 82px;
+    height: 50px;
 
     /* background-color: chartreuse; */
 }
@@ -223,16 +229,201 @@ i {
 .padding2 {
     padding-left: 50px;
 }
+
 h2 {
-    color: #2D2F3C;
     font-family: "Arial", sans-serif;
     font-style: bold;
     font-weight: 800;
     font-size: 25px;
-    line-height: 300%;
+    line-height: 150%;
     letter-spacing: 0.08em;
     transform: scale(1, 0.9);
 }
-.about-me {
 
+p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    /* letter-spacing: 0.01em; */
+    padding-top: 5px;
+
+}
+
+li {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+}
+
+ul {
+    margin-left: 0;
+    /* Отступ слева в браузере IE и Opera */
+    padding-left: 0;
+    /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.dark-color {
+    color: #2D2F3C;
+}
+
+.white-color {
+    color: #FDFDFD;
+}
+
+.profile-color {
+    color: #F8F8F8;
+}
+
+.margin-skills {
+    margin-top: 20px;
+}
+
+.experience-color {
+    color: #363636;
+}
+
+.border-line {
+    display: block;
+    border: 2px solid #F5D7B5;
+    width: 65px;
+}
+
+.bolt-line {
+    display: block;
+    background-color: #FFFFFF;
+    width: 353px;
+    height: 16px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #D3BA71;
+}
+
+.bolt-line-1 {
+    display: block;
+    background-color: #e3c620;
+    width: 260px;
+    height: 14px;
+}
+
+.bolt-line-2 {
+    display: block;
+    background-color: #e3c620;
+    width: 305px;
+    height: 14px;
+}
+
+.bolt-line-3 {
+    display: block;
+    background-color: #e3c620;
+    width: 280px;
+    height: 14px;
+}
+
+.bolt-line-4 {
+    display: block;
+    background-color: #e3c620;
+    width: 295px;
+    height: 14px;
+}
+
+.bolt-line-5 {
+    display: block;
+    background-color: #e3c620;
+    width: 240px;
+    height: 14px;
+}
+
+.bolt-line-6 {
+    display: block;
+    background-color: #e3c620;
+    width: 295px;
+    height: 14px;
+}
+
+.bolt-line-7 {
+    display: block;
+    background-color: #e3c620;
+    width: 270px;
+    height: 14px;
+}
+
+.about-me {
+    display: block;
+    margin: 0 50px 0;
+}
+
+.experience {
+    display: block;
+    margin: 0 50px 0;
+}
+
+.education {
+    display: block;
+    margin-right: 15px;
+}
+
+.cozy-house {
+    border-bottom: 1px solid #2D2F3C;
+    width: max-content;
+}
+
+.hard-skills {
+    display: block;
+    margin: 0 50px 0;
+}
+
+.soft-skills {
+    display: block;
+    margin: 50px 50px 0;
+}
+
+.here {
+    color: #FDFDFD;
+    font-style: bold;
+    font-weight: 500;
+    border-bottom: 1px solid #FDFDFD;
+}
+
+.english {
+    display: block;
+    margin: 50px 50px 0;
+}
+
+.li-align {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.copy {
+    display: block;
+    margin-top: 34px;
+    margin-bottom: 14px;
+    margin-right: 245px;
+}
+
+/* .rs_school {
+    display: block;
+    margin-bottom: 100px;
+    margin-left: 400px;
+} */
+
+.github {
+    color: #390173;
+}
+
+.align-github {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    /* margin-right: 0px; */
+}
+
+.block {
+    display: block;
+    margin-left: 188px;
 }
