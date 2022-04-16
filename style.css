@@ -42,7 +42,7 @@ body {
 
 .wrapper_header {
     display: flex;
-    width: 1124px;
+    max-width: 1124px;
     height: 365px;
     margin: 0 auto;
 
@@ -79,7 +79,7 @@ body {
 .wrapper-special {
     display: block;
     margin-top: 25px;
-    width: 500px;
+    max-width: 500px;
     height: 200px;
 }
 
@@ -93,7 +93,7 @@ body {
     line-height: 100%;
     letter-spacing: 0.1em;
     color: #2D323E;
-    transform: scale(1, 1.5);
+    transform: scale(1, 1.3);
 
     /* background-color: antiquewhite; */
 
@@ -104,13 +104,20 @@ body {
     color: #2D323E;
     padding: 15px 15px 15px 15px;
     letter-spacing: 0.1em;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    color: #2D323E;
     background-color: #FED863;
 }
 
 .wrapper_exp {
     display: flex;
     /* margin-left: 5px; */
-    width: 1124px;
+    max-width: 1124px;
     height: 1236px;
 
     border-radius: 0 0 20px 20px;
@@ -120,7 +127,7 @@ body {
 .wrapper_profile {
     display: block;
 
-    width: 447px;
+    max-width: 447px;
     height: 1236px;
 
     border-radius: 0 0 0 17px;
@@ -128,30 +135,104 @@ body {
 }
 
 
-
-
-
 .wrapper_experience {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
 
-    width: 677px;
+    max-width: 677px;
     height: 1236px;
 
     border-radius: 0 0 20px 0;
     background-color: #F8F8F8;
 }
 
-.contacts {
-    width: 677px;
+.contacts-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+
+    max-width: 677px;
     height: 165px;
 
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
 }
 
-/* .icons {
-    display: block;
-    width: 50px;
-    height: 50px;
+.link {
+    text-decoration: none;
+}
 
-    background-color: #978b80;
-} */
+.link:hover,
+.link:focus {
+    cursor: pointer;
+}
+
+:link:link {
+    color: #131313;
+}
+
+:link:active {
+    color: #131313;
+}
+
+.link:visited {
+    color: #131313;
+}
+
+i {
+    font-size: 22px;
+}
+.maps {
+    color: #34A853;
+}
+.telegram {
+    color: #249CD7;
+}
+.discord {
+    color: #5662F6;
+}
+.gmail {
+    color: #EE5013;
+}
+.youtube {
+    color: #FC0000;
+}
+.github {
+    color: #390173;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 338px;
+    height: 82px;
+
+    /* background-color: chartreuse; */
+}
+
+.padding {
+    padding-left: 15px;
+}
+
+.padding2 {
+    padding-left: 50px;
+}
+h2 {
+    color: #2D2F3C;
+    font-family: "Arial", sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 300%;
+    letter-spacing: 0.08em;
+    transform: scale(1, 0.9);
+}
+.about-me {
+
+}
